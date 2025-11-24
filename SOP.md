@@ -170,8 +170,9 @@ Reply from ...
 0% packet loss
 ```
 
+---
 
-### **Troubleshooting Guide**
+## **Troubleshooting Guide**
 
 If the connection fails or does not work as expected, check the following common issues:
 
@@ -184,8 +185,9 @@ If the connection fails or does not work as expected, check the following common
 |  Connection takes too long | Weak signal or interference | Move closer to the router or remove obstacles |
 |  Keeps disconnecting | Poor signal or system roaming settings | Disable roaming sensitivity or test closer to the access point |
 
+---
 
-### **Flowchart **
+## **Flowchart**
 
 ```mermaid
 flowchart TD
