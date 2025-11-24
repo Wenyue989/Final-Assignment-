@@ -30,7 +30,7 @@
 
 ##  Purpose
 
-This document provides a standardized process for manually connecting a Windows 10/11 device to a secured Wi-Fi network.  
+This document provides a standardized process for manually connecting a Windows 11 device to a secured Wi-Fi network.  
 Manual configuration is used when the network is hidden, uses enhanced security, or automatic connection fails.
 
 ---
@@ -161,14 +161,17 @@ Run the following command:
 
 ```sh
 ping google.com
+```
 
->Expected result:
+ >Expected result:
 
-```sh
+```
 Reply from ...
 0% packet loss
+```
 
-##  Troubleshooting Guide
+
+### **Troubleshooting Guide**
 
 If the connection fails or does not work as expected, check the following common issues:
 
@@ -181,6 +184,10 @@ If the connection fails or does not work as expected, check the following common
 |  Connection takes too long | Weak signal or interference | Move closer to the router or remove obstacles |
 |  Keeps disconnecting | Poor signal or system roaming settings | Disable roaming sensitivity or test closer to the access point |
 
+
+### **Flowchart **
+
+```mermaid
 flowchart TD
 A[Start] --> B[Open Wi-Fi Settings]
 B --> C[Add New Network]
@@ -196,22 +203,5 @@ J --> I[Connect]
 I --> K[Ping Test]
 K -->|Success| L[Done]
 K -->|Fail| M[Troubleshoot]
+```
 
-flowchart TD
-    A[Start] --> B[Collect Wi-Fi Information<br/>(SSID, Security, Password)]
-    B --> C[Open Wi-Fi Settings<br/>(Settings → Network & Internet → Wi-Fi)]
-    C --> D[Click 'Manage known networks'<br/>then 'Add network']
-    D --> E{Is WPA3-Personal Available?}
-    E -->|Yes| F[Select WPA3-Personal]
-    E -->|No| G[Select WPA2-Personal]
-    F --> H[Enter SSID: Group-Project-WiFi<br/>Enter Password: *********]
-    G --> H[Enter SSID: Group-Project-WiFi<br/>Enter Password: *********]
-    H --> I[Check 'Connect automatically'<br/>Click Save]
-    I --> J{Use DHCP?}
-    J -->|Yes| K[Connect to Wi-Fi Network]
-    J -->|No| L[Enter Static IP,<br/>Subnet, Gateway, DNS]
-    L --> K[Connect to Wi-Fi Network]
-    K --> M[Open Command Prompt<br/>Run: ping google.com]
-    M --> N{Ping Successful?}
-    N -->|Yes| O[Done<br/>(Connected & Verified)]
-    N -->|No| P[Troubleshoot<br/>(Password / DNS / Signal / WPA3 support)]
