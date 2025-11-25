@@ -68,16 +68,6 @@ After completing this SOP, the user will be able to:
 
 ---
 
-##  Accountability Matrix
-
-| Role | Responsibility |
-|------|--------------|
-| End User | Provide correct Wi-Fi credentials |
-| IT Technician | Perform configuration |
-| Network Administrator | Approve secure Wi-Fi settings |
-
----
-
 ##  Required Information
 
 | Setting | Example |
@@ -211,4 +201,3 @@ I --> K[Ping Test]
 K -->|Success| L[Done]
 K -->|Fail| M[Troubleshoot]
 ```
-
