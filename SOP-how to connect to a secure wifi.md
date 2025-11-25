@@ -95,8 +95,7 @@ After completing this SOP, the user will be able to:
 
 1. Click **Start**
 2. Go to **Settings → Network & Internet → Wi-Fi**
-
- Screenshot placeholder:  
+ 
 `![Wi-Fi Settings](images/step1.png)`
 
 ---
@@ -130,7 +129,7 @@ After completing this SOP, the user will be able to:
 
 ---
 
-### **Step 5 — (Optional) Static IP Settings**
+### **Step 5 — Static IP Settings**
 
 If required:
 
@@ -161,6 +160,12 @@ Run the following command:
 
 ```sh
 ping google.com
+```
+
+Or
+
+```sh
+ping 8.8.8.8
 ```
 
  >Expected result:
