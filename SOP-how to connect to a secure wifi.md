@@ -4,8 +4,8 @@
 ---
 
 **Version:** `1.0`    
-**Group Members:** _Name1, Name2, Name3,Name4_  
-**Date:** `YYYY-MM-DD`
+**Group Members:** _Linfan Tu, Wenyue Ren, Vaishnavi Shivji Kerai, Enping Zhou_  
+**Date:** `2025-11-26`
 
 ---
 
@@ -13,10 +13,10 @@
 
 | Name | Role | Signature | Date |
 |------|------|-----------|------|
-| Group Member | Contributor | — | — |
-| Group Member | Contributor | — | — |
-| Group Member | Contributor | — | — |
-| Group Member | Contributor | — | — |
+| Linfan Tu | Contributor | — | 2025-11-25 |
+| Wenyue Ren | Contributor | — | 2025-11-25 |
+| Vaishnavi Shivji Kerai | Contributor | — | 2025-11-25 |
+| Enping Zhou | Contributor | — | 2025-11-25 |
 
 ---
 
@@ -24,7 +24,7 @@
 
 | Version | Date | Changes | Author |
 |--------|------|---------|--------|
-| 1.0 | YYYY-MM-DD | Initial Release | Your Name |
+| 1.0 | 2025-11-25 | Initial Release | Group members |
 
 ---
 
@@ -129,7 +129,7 @@ After completing this SOP, the user will be able to:
 
 ---
 
-### **Step 5 — Static IP Settings**
+### **Step 5(Optional) — Static IP Settings**
 
 If required:
 
