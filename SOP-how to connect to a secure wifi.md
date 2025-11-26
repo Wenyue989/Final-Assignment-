@@ -86,7 +86,7 @@ After completing this SOP, the user will be able to:
 1. Click **Start**
 2. Go to **Settings → Network & Internet → Wi-Fi**
  
-`![Wi-Fi Settings](https://raw.githubusercontent.com/Wenyue989/Final-Assignment-/refs/heads/main/step1.png)`
+![Wi-Fi Settings](https://raw.githubusercontent.com/Wenyue989/Final-Assignment-/refs/heads/main/step1.png)
 
 ---
 
