@@ -105,7 +105,7 @@ After completing this SOP, the user will be able to:
 - Security Type: `WPA3-Personal`  
   _(if unsupported → select `WPA2-Personal`)_
 
- `![Security Type](images/step3.png)`
+ ![Security Type](https://raw.githubusercontent.com/Wenyue989/Final-Assignment-/refs/heads/main/step3.png)
 
 ---
 
@@ -128,7 +128,7 @@ If required:
 | Gateway | `192.168.X.X` |
 | DNS | `8.8.8.8` |
 
- `![Static IP](images/step5.png)`
+ ![Static IP](https://raw.githubusercontent.com/Wenyue989/Final-Assignment-/refs/heads/main/step5-staticIP.png)
 
 ---
 
@@ -138,7 +138,7 @@ If required:
 - Select `Group-Project-WiFi`
 - Should display: **Connected, secured**
 
- `![Connected](images/connected.png)`
+ ![Connected](https://raw.githubusercontent.com/Wenyue989/Final-Assignment-/refs/heads/main/step6.png)`
 
 ---
 
