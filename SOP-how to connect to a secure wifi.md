@@ -101,7 +101,7 @@ After completing this SOP, the user will be able to:
 
 ### **Step 3 — Enter Network Information**
 
-- SSID: `Group-Project-WiFi`
+- SSID: `XXXXXXXX`
 - Security Type: `WPA3-Personal`  
   _(if unsupported → select `WPA2-Personal`)_
 
@@ -111,11 +111,9 @@ After completing this SOP, the user will be able to:
 
 ### **Step 4 — Enter Password**
 
-- Enter: `ProjectSecure2025!`
+- Enter: `XXXXXXXX`
 - Check:  `Connect automatically`
 - Click: **Save**
-
- `![Password Screen](images/step4.png)`
 
 ---
 
@@ -125,9 +123,9 @@ If required:
 
 | Field | Value |
 |-------|-------|
-| IP Address | `192.168.1.120` |
+| IP Address | `192.168.X.X` |
 | Mask | `255.255.255.0` |
-| Gateway | `192.168.1.1` |
+| Gateway | `192.168.X.X` |
 | DNS | `8.8.8.8` |
 
  `![Static IP](images/step5.png)`
@@ -153,12 +151,11 @@ ping google.com
 ```
 
 Or
-
-```sh
+```
 ping 8.8.8.8
 ```
 
- >Expected result:
+>Expected result:
 
 ```
 Reply from ...
