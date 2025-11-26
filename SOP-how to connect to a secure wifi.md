@@ -24,7 +24,7 @@
 
 | Version | Date | Changes | Author |
 |--------|------|---------|--------|
-| 1.0 | 2025-11-25 | Initial Release | Group members |
+| 1.0 | 2025-11-25 | Initial Release | Group 4 members |
 
 ---
 
@@ -72,9 +72,9 @@ After completing this SOP, the user will be able to:
 
 | Setting | Example |
 |---------|---------|
-| SSID | `Group-Project-WiFi` |
+| SSID | `XXXXXXXX` |
 | Security Type | WPA3-Personal → fallback WPA2 |
-| Password | `ProjectSecure2025!` |
+| Password | `XXXXXXXX` |
 | Optional: IP Settings | Provided by admin |
 
 ---
