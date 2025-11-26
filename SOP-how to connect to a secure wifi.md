@@ -95,7 +95,7 @@ After completing this SOP, the user will be able to:
 1. Select **Manage known networks**
 2. Click **Add network**
 
- `![Add Network](images/step2.png)`
+ ![Add Network](https://raw.githubusercontent.com/Wenyue989/Final-Assignment-/refs/heads/main/step2.png)
 
 ---
 
